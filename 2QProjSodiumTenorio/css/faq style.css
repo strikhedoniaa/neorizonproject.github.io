@@ -1,0 +1,174 @@
+body
+{
+	background-color:#e8b7d4;
+	text-align:center;
+}
+#icons
+{
+	padding-top: 15px;
+}
+#icons ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px 10px 35px 10px;
+}
+#icons li 
+{
+	display: inline;
+}
+#icons a
+{
+	padding-right: 10px;
+	padding-top: 0px;
+}
+#welcome
+{
+	border: 1px hidden;
+	background-color: #a5678e;
+	z-index: 2;
+	text-align: center;
+	 font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+}
+.icon
+{
+	width: 110px;
+	padding: 0px;
+	transition: transform .2s;
+}
+.icon:hover
+{
+	transform: scale(1.2);
+}
+#home
+{
+	position: absolute;
+	top: 150px;
+	right: 464px; 
+	border: 1px hidden black;
+	padding: 10px 10px 10px 10px;
+	float: left;
+	font-weight: bold;
+	color: #fff192;
+	overflow: clearfix;
+	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+}
+#help
+{
+	position: absolute;
+	top: 150px;
+	right: 336px;
+	border: 1px hidden black;
+	padding: 10px 10px 10px 10px;
+	float: left;
+	font-weight: bold;
+	color: #fff192;
+	overflow: clearfix;
+	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+}
+#impact
+{
+	position: absolute;
+	top: 150px;
+	right: 207px;
+	border: 1px hidden black;
+	padding: 10px 10px 10px 10px;
+	float: left;
+	font-weight: bold;
+	color: #fff192;
+	overflow: clearfix;
+	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+}
+#stat
+{
+	position: absolute;
+	top: 150px;
+	right: 78px;
+	border: 1px hidden black;
+	padding: 10px 10px 10px 10px;
+	float: left;
+	font-weight: bold;
+	color: #fff192;
+	overflow: clearfix;
+	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+}
+#header
+{
+	display: inline;
+	padding-top: 45px;
+	padding-right: 0px;
+	padding-left: 20px;
+	font-size: 75px;
+	font-weight: bold;
+	color: #fff192;
+	
+}
+.logo
+{
+	height: 160px;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+#title
+{
+	position: absolute;
+	color: #a5678e;
+	font-size: 50px;
+	font-weight: bolder;
+	top: 190px;
+	left: 30px;
+	 font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+}
+#instructions
+{
+	position: absolute;
+	color: #a5678e;
+	font-size: 35px;
+	font-weight: bold;
+	top: 260px;
+	left: 30px;
+	 font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+}
+.flip-card {
+	position: absolute;
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #a5678e;
+  color: #fff192;
+  font-size: 50px;
+   font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+}
+
+.flip-card-back {
+  background-color: #DEA5A4;
+  color: black;
+  font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+  transform: rotateY(180deg);
+}

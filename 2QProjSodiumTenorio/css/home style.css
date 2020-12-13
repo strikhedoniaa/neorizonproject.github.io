@@ -1,0 +1,220 @@
+body
+{
+	background-color:#e8b7d4;
+}
+#icons
+{
+	padding-top: 15px;
+}
+#icons ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px 10px 35px 10px;
+}
+#icons li 
+{
+	display: inline;
+}
+#icons a
+{
+	padding-right: 10px;
+	padding-top: 0px;
+}
+#welcome
+{
+	border: 1px hidden;
+	background-color: #a5678e;
+	z-index: 2;
+	text-align: center;
+	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+}
+.icon
+{
+	width: 110px;
+	padding: 0px;
+	transition: transform .2s;
+}
+.icon:hover
+{
+	transform: scale(1.2);
+}
+#help
+{
+	position: absolute;
+	top: 150px;
+	right: 464px; 
+	border: 1px hidden black;
+	padding: 10px 10px 10px 10px;
+	float: left;
+	font-weight: bold;
+	color: #fff192;
+	overflow: clearfix;
+	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+	
+}
+#impact
+{
+	position: absolute;
+	top: 150px;
+	right: 336px;
+	border: 1px hidden black;
+	padding: 10px 10px 10px 10px;
+	float: left;
+	font-weight: bold;
+	color: #fff192;
+	overflow: clearfix;
+	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+}
+#stat
+{
+	position: absolute;
+	top: 150px;
+	right: 207px;
+	border: 1px hidden black;
+	padding: 10px 10px 10px 10px;
+	float: left;
+	font-weight: bold;
+	color: #fff192;
+	overflow: clearfix;
+	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+}
+#faq
+{
+	position: absolute;
+	top: 150px;
+	right: 118px;
+	border: 1px hidden black;
+	padding: 10px 10px 10px 10px;
+	float: left;
+	font-weight: bold;
+	color: #fff192;
+	overflow: clearfix;
+	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+}
+#header
+{
+	display: inline;
+	padding-top: 45px;
+	padding-right: 0px;
+	padding-left: 20px;
+	font-size: 75px;
+	font-weight: bold;
+	color: #fff192;
+	
+}
+.flower
+{
+	margin-top: 13px;
+	float: right;
+	height: 430px;
+}
+#catchy
+{
+	position: absolute;
+	color: #DAA520;
+	font-size: 75px;
+	font-weight: bolder;
+	top: 525px;
+	left: 300px;
+	 font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+}
+#info
+{
+	position: absolute;
+	text-align: justify;
+	margin-right: 450px;
+	color: #a5678e;
+	font-size: 33px;
+	font-weight: bold;
+	top: 200px;
+	left: 33px;
+	 font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+}
+.logo
+{
+	height: 160px;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+#social
+{
+	border: 1px hidden;
+	background-color:white;
+	z-index: 2;
+	text-align: center;
+	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+	float: right;
+	margin: 5px;
+	width: 420px;
+	height: 100px;
+	position: absolute;
+	top: 503px;
+	right: 3px;
+}
+#check
+{
+	border: 1px hidden;
+	background-color:#a5678e;
+	color: #fff192;
+	z-index: 100;
+	text-align: center;
+	font-size: 38px;
+	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+	float: right;
+	margin: 5px;
+	width: 155px;
+	height: 100px;
+	position: absolute;
+	top: 503px;
+	right: 3px;
+}
+.nasa{
+	background: url('../images/sprite.jpg') no-repeat -528px -400px;
+	width: 144px;
+	height: 120px;
+	position: absolute;
+	top: 500px;
+	right: 145px;
+	transform: scale(0.5,0.5);
+	z-index: 50;
+	transition: transform .2s;
+}
+.wwf {
+	background: url('../images/sprite.jpg') no-repeat -312px -576px;
+	width: 96px;
+	height: 136px;
+	position: absolute;
+	top: 490px;
+	right: 250px;
+	z-index: 50;
+	transform: scale(0.5, 0.5);
+	transition: transform .2s;
+}
+.unep {
+	background: url('../images/sprite2.jpg') no-repeat -31px -31px;
+	width: 194px;
+	height: 226px;
+	position: absolute;
+	top: 445px;
+	right: 280px;
+	z-index: 50;
+	transform: scale(0.3, 0.3);
+	transition: transform .2s;
+}
+.nasa:hover {
+  transform: scale(0.7);
+ }
+.wwf:hover {
+  transform: scale(0.7);
+ }
+.unep:hover {
+  transform: scale(0.4);
+ }
+.image
+{
+	height: 310px;
+	position: absolute;
+	top: 190px;
+	right: 10px;
+}
