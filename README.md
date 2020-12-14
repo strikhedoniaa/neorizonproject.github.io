@@ -1,2 +1,2 @@
-# https://strikhedoniaa.github.io
+# https://neorizonproject.github.io
 spread awareness on climate change
