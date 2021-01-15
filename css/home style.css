@@ -21,7 +21,7 @@ body
 	padding-right: 10px;
 	padding-top: 0px;
 }
-#welcome
+header
 {
 	border: 1px hidden;
 	background-color: #a5678e;
@@ -39,7 +39,8 @@ body
 {
 	transform: scale(1.2);
 }
-#help
+
+.help
 {
 	position: absolute;
 	top: 150px;
@@ -53,7 +54,7 @@ body
 	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
 	
 }
-#impact
+.impact
 {
 	position: absolute;
 	top: 150px;
@@ -66,7 +67,7 @@ body
 	overflow: clearfix;
 	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
 }
-#stat
+.stat
 {
 	position: absolute;
 	top: 150px;
@@ -79,7 +80,7 @@ body
 	overflow: clearfix;
 	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
 }
-#faq
+.faq
 {
 	position: absolute;
 	top: 150px;
@@ -103,33 +104,38 @@ body
 	color: #fff192;
 	
 }
-.flower
-{
-	margin-top: 13px;
-	float: right;
-	height: 430px;
-}
-#catchy
+
+.catchy
 {
 	position: absolute;
 	color: #DAA520;
-	font-size: 75px;
+	font-size: 65px;
 	font-weight: bolder;
-	top: 525px;
+	top: 426px;
 	left: 300px;
-	 font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
 }
-#info
+.catchy::selection
+{
+	background-color: #fff192;
+	color: black;
+}
+.info
 {
 	position: absolute;
 	text-align: justify;
 	margin-right: 450px;
 	color: #a5678e;
-	font-size: 33px;
+	font-size: 27px;
 	font-weight: bold;
 	top: 200px;
 	left: 33px;
 	 font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+}
+.info::selection
+{
+	background-color:#fff192;
+	color: black;
 }
 .logo
 {
@@ -137,6 +143,14 @@ body
 	padding-top: 10px;
 	padding-left: 5px;
 }
+.picture
+{
+	width: 300px;
+	position: absolute;
+	top: 180px;
+	right: 70px;
+}
+
 #social
 {
 	border: 1px hidden;
@@ -146,36 +160,20 @@ body
 	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
 	float: right;
 	margin: 5px;
-	width: 420px;
+	width: 410px;
 	height: 100px;
 	position: absolute;
-	top: 503px;
-	right: 3px;
+	bottom: 45px;
+	right: -5px;
 }
-#check
-{
-	border: 1px hidden;
-	background-color:#a5678e;
-	color: #fff192;
-	z-index: 100;
-	text-align: center;
-	font-size: 38px;
-	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
-	float: right;
-	margin: 5px;
-	width: 155px;
-	height: 100px;
-	position: absolute;
-	top: 503px;
-	right: 3px;
-}
+
 .nasa{
 	background: url('../images/sprite.jpg') no-repeat -528px -400px;
 	width: 144px;
 	height: 120px;
 	position: absolute;
-	top: 500px;
-	right: 145px;
+	top: -10px;
+	right: 215px;
 	transform: scale(0.5,0.5);
 	z-index: 50;
 	transition: transform .2s;
@@ -185,8 +183,8 @@ body
 	width: 96px;
 	height: 136px;
 	position: absolute;
-	top: 490px;
-	right: 250px;
+	top: -19px;
+	right: 145px;
 	z-index: 50;
 	transform: scale(0.5, 0.5);
 	transition: transform .2s;
@@ -195,9 +193,9 @@ body
 	background: url('../images/sprite2.jpg') no-repeat -31px -31px;
 	width: 194px;
 	height: 226px;
-	position: absolute;
-	top: 445px;
-	right: 280px;
+	position:absolute;
+	top: -61px;
+	right: 0px;
 	z-index: 50;
 	transform: scale(0.3, 0.3);
 	transition: transform .2s;
@@ -211,10 +209,34 @@ body
 .unep:hover {
   transform: scale(0.4);
  }
-.image
+
+ /*FOOTER*/
+ .footer-content
+ {
+	background-color: #660033;
+	color:white;
+	width: 100%;
+	height: 100px;
+	position:absolute;
+	bottom: 50px;
+	left: 0px;
+	color: #fff192;
+	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+	font-size: 25px;
+	text-align: center;
+	
+}
+
+.footer-bottom
 {
-	height: 310px;
+	background: #ffcce5;
+	color:black;
+	height: 30px;
+	width: 100%;
+	text-align: center;
 	position: absolute;
-	top: 190px;
-	right: 10px;
+	bottom: 0px;
+	left: 0px;
+	padding-top: 20px;
+	
 }

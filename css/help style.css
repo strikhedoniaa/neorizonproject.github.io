@@ -21,7 +21,7 @@ body
 	padding-right: 15px;
 	padding-top: 20px;
 }
-#welcome
+header
 {
 	border: 1px hidden;
 	background-color: #a5678e;
@@ -45,7 +45,7 @@ body
 	padding-top: 10px;
 	padding-left: 5px;
 }
-#question
+.question
 {
 	position: absolute;
 	color: #a5678e;
@@ -55,7 +55,7 @@ body
 	left: 60px;
 	 font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
 }
-#instructions
+.instructions
 {
 	position: absolute;
 	color: #a5678e;
@@ -64,6 +64,16 @@ body
 	top: 270px;
 	left: 60px;
 	 font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+}
+.question::selection
+{
+	background-color:#fff192;
+	color: black;
+}
+.instructions::selection
+{
+	background-color:#fff192;
+	color: black;
 }
 .flip-card {
 	position: absolute;
@@ -110,7 +120,7 @@ p
 {
 	font-size: 20px;
 }
-#home
+.home
 {
 	position: absolute;
 	top: 149px;
@@ -123,7 +133,7 @@ p
 	overflow: clearfix;
 	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
 }
-#impact
+.impact
 {
 	position: absolute;
 	top: 150px;
@@ -136,7 +146,7 @@ p
 	overflow: clearfix;
 	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
 }
-#stat
+.stat
 {
 	position: absolute;
 	top: 150px;
@@ -149,7 +159,7 @@ p
 	overflow: clearfix;
 	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
 }
-#faq
+.faq
 {
 	position: absolute;
 	top: 150px;
@@ -185,33 +195,16 @@ p
 	width: 410px;
 	height: 100px;
 	position: absolute;
-	top: 185px;
-	right: 3px;
-}
-#check
-{
-	border: 1px hidden;
-	background-color:#a5678e;
-	color: #fff192;
-	z-index: 100;
-	text-align: center;
-	font-size: 38px;
-	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
-	float: right;
-	margin: 5px;
-	width: 155px;
-	height: 100px;
-	position: absolute;
-	top: 185px;
-	right: 3px;
+	bottom: -455px;
+	right: -5px;
 }
 .nasa{
 	background: url('../images/sprite.jpg') no-repeat -528px -400px;
 	width: 144px;
 	height: 120px;
 	position: absolute;
-	top: 182px;
-	right: 145px;
+	top: -9px;
+	right: 204px;
 	transform: scale(0.5,0.5);
 	z-index: 50;
 	transition: transform .2s;
@@ -221,8 +214,8 @@ p
 	width: 96px;
 	height: 136px;
 	position: absolute;
-	top: 172px;
-	right: 250px;
+	top: -20px;
+	right: 140px;
 	z-index: 50;
 	transform: scale(0.5, 0.5);
 	transition: transform .2s;
@@ -232,8 +225,8 @@ p
 	width: 194px;
 	height: 226px;
 	position: absolute;
-	top: 128px;
-	right: 280px;
+	top: -62px;
+	right: 10px;
 	z-index: 50;
 	transform: scale(0.3, 0.3);
 	transition: transform .2s;
@@ -255,6 +248,37 @@ p
 .dropdown:hover {display: block;}
 
 .dropdown:hover #welcome {background-color: #3e8e41;}
+
+/*FOOTER*/
+ .footer-content
+ {
+	background-color: #660033;
+	color:white;
+	width: 100%;
+	height: 100px;
+	position:absolute;
+	bottom:-450px;
+	left: 0px;
+	color: #fff192;
+	font-family: Candara, Didot, Fantasy, Perpetua, Courier; 
+	font-size: 25px;
+	text-align: center;
+	
+}
+
+.footer-bottom
+{
+	background: #ffcce5;
+	color:black;
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: -500px;
+	left: 0px;
+	padding-top: 20px;
+	
+}
 
 	
 	
